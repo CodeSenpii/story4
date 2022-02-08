@@ -3,7 +3,7 @@ body {
   background: #EEE;
   user-select: none;
   font-family: sans-serif;
-  background-image: url("beautiful.jpg");
+  background-image: url("rise.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
@@ -97,7 +97,7 @@ input[type=radio]:checked {
   left: 0;
   top: 0;
   color: white;
-  font-size: calc(1.3em + 0.9vw);
+  font-size: calc(1em + 0.9vw);
   font-weight: bold;
   border-radius: 15px;
   word-spacing: 0.2em;
@@ -110,79 +110,77 @@ input[type=radio]:checked {
 }
 
 #slide1 {
-  background: lightcyan;
-/* background-image: url("dancer4.jpg"); */
-background-repeat: no-repeat;
-background-size: cover;
-
-    /* background: steelblue; */
+  background: #E95252;
 }
 
 #slide2 {
-  /* background: yellowgreen; */
-  /* background:#BBFFFF; */
-  /* background-image: url("flowerD.jpg"); */
+  background: #E86716;
+
 }
 
 #slide3 {
-  /* background: dodgerblue; */
-/* background: #BFEFFF; */
-/* background-image: url("flowerD2.jpg"); */
+
+background: #C56225;
+
 background-repeat: no-repeat;
 background-size: cover;
 }
 
 #slide4 {
-  /* background: slateblue; */
-  /* background: #B9D3EE; */
-  /* background-image: url("flowerD3.jpg"); */
+
+  background: #D78431;
+
 }
 
 #slide5 {
-  /* background: violet; */
-  /* background-image: url("igloo1.jpg"); */
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: #C2AC1E;
+
 }
 
 #slide6{
-  /* background: darkcyan; */
-  /* background-image: url("ballroom2.jpg"); */
-  background-repeat: no-repeat;
-  background-size: cover;
+
+  background: #D6C241;
+
 }
 
 #slide7{
-  /* background: lavender; */
+  background:#F8E985;
   /* background-image: url("beautiful.jpg"); */
 }
 
 #slide8{
-  /* background: darksalmon; */
+  background: #85CEF8;
   /* background-image: url("dancer3.png"); */
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 #slide9{
-  /* background: magenta; */
+  background: #32CEF5;
   /* background-image: url("dancer5.jpg"); */
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 #slide10{
-  /* background: deepskyblue; */
+  background: deepskyblue;
   /* background-image: url("dancer6.jpg"); */
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 #slide11{
-  /* background: coral; */
+  background: none;
   /* background-image: url("dancer7.jpg"); */
   background-repeat: no-repeat;
   background-size: cover;
+}
+.bg-pic{
+  position: absolute;
+  left: 50%;
+  top: 98%;
+  transform: translateX(-50%);
+
 }
 
 .prefix::before{
@@ -219,6 +217,10 @@ background-size: cover;
   position: absolute;
   background-color: transparent;
   bottom:  120px ;
+}
+.vid{
+  border-radius: 15px;
+  width: 100%;
 }
 
 /* Slider Functionality */
@@ -293,7 +295,7 @@ background-size: cover;
 
 @media(max-width: 1125px){
   p{
-    font-size: calc(0.5em + 0.7vw);
+    font-size: calc(0.3em + 0.7vw);
     word-spacing: normal;
   }
 }
@@ -316,7 +318,7 @@ background-size: cover;
   .btn, .keyUp{
     height: 30px;
     width: 120px;
-    font-size: 1em;
+    font-size: 0.5em;
   }
   .space-bar{
     bottom: 40px ;
